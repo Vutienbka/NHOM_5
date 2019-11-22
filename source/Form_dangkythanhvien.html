@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thuc hanh lap trang web bang ngon ngu danh dau sieu van ban</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Lorem ipsum dolor sit amet">
+        <meta name="keyword" content="Java, Html, Javascript">
+        <meta name="author" content="Vu Van Tien">
+        <meta lang="vi">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type ="text/css" href="Form_dangkythanhvien.css">
+        <style type="text/css"></style>
+    </head>
+   <body>
+     <div id="container">
+       <div id="title"> ĐĂNG KÝ HỌC VIÊN</div>
+<!--Tao form nhap lieu-->       
+       <form acion="" method="POST">
+         <label class="textbox">
+           Họ Và Tên <input id="textbox1" name="hovaten" type="textbox" placeholder="Họ và tên">
+         </label> <br/><br/>
+         <label class="textbox">
+           Ngay sinh <input id="textbox2" type="textbox" placeholder="Ngay sinh" name="ngaysinh">
+         </label><br/><br/>
+<!--Tao nut lua cho radio-->         
+           <label id="gioitinh">Gioi tinh</label>
+           <label>
+            <input id="radio" type="radio" name="radio"> Nam
+           </label>
+             <label>
+             <input id="radio" type="radio" name="radio"> Nu
+           </label>
+        <br/><br/>
+<!--tao mot table moi-->         
+           <table>
+             <tr>
+               <td id="diachi"> Dia chi</td>
+               <td ><textarea id="textarea" rows="8" cols="50"></textarea> </td>
+             </tr>
+           </table><br>
+<!--tao them mot table moi-->
+           <table>
+             <tr>
+               <td id="lop">Lop</td>
+               <td>
+                 <select id="chonlop">
+                   <option>Chon lop</option>
+                   <option>C1119H2</option>
+                   <option>C1119H3</option>
+                   <option>C1119H4</option>
+                   <option>C1119H5</option>
+                 </select>
+               </td>
+             </tr>
+           </table><br>
+  <!--Tao textbox Email va dien thoai-->       
+             <label id="name">Email
+                <input id="textbox3" type="textbox" placeholder="Nhap dia chi email">
+             </label><br><br>
+             
+             <label id="Dienthoai">Dien thoai
+                <input id="textbox4" type="textbox" placeholder="Dien thoai">
+             </label><br/><br/>
+  <!--Tao nut bam Submit va Nhap lai-->         
+           <input id="_submit" type="submit" name="submit" value="submit">
+           <input id="_reset" type="reset" name="reset" value="Nhap lai">
+       </form>
+     </div>
+  </body>
+        
+</html>

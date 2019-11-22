@@ -1,0 +1,86 @@
+*{
+    font-family: Arial,Helvetica;
+  }
+  body{
+    margin-top: 50px;
+    padding: 0;
+  }
+  #container{
+    width: 800px;
+    height: 545px;
+    margin: 0 auto;
+    background: #f5d142;
+    padding: 15px 20px;
+  }
+  #title{
+    margin: 5px 5px;
+    background: #0ec0c9;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 20px; 
+  }
+  #textbox1{
+    margin-left: 50px;
+    font-size: 17px;
+  }
+  #textbox2{
+    margin-left: 55px;
+    font-size: 17px;
+  }
+  #gioitinh{
+    margin-right: 70px;
+  }
+  
+  #textarea{
+    margin-left: 75px;
+  }
+  #diachi{
+    padding-bottom: 70px;
+    font-size: 17px;
+    padding-left: 5px;
+  }
+  .textbox{
+    margin-left:5px;
+  }
+  #gioitinh{
+    margin-left: 5px;
+  }
+  #lop{
+    font-size: 17px;
+    padding-left: 10px
+  }
+  #chonlop{
+    margin-left: 95px;
+    height: 30px;
+    width:120px;
+    font-size: 17px;
+    background: white;
+  }
+  #textbox3{
+    margin-left: 85px;
+    font-size: 17px;
+  }
+  #name{
+    margin-left: 10px;
+  }
+  #Dienthoai{
+    margin-left: 10px;
+  }
+  #textbox4{
+    margin-left: 55px; 
+    font-size: 17px;
+  }
+  #_submit{
+    height: 35px;
+    width: 100px;
+    margin-left: 140px;
+    font-size: 17px;
+  }
+  #_reset{
+    height: 35px;
+    width: 110px;
+    margin-left: 5px;
+    font-size: 17px;
+  }
