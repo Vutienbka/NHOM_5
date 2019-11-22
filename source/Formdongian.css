@@ -1,0 +1,101 @@
+*{
+    font-family: Helvetica;
+  }
+  body{
+    margin-top: 50px;
+    padding: 0;
+  }
+  #container{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background:#44c7f2;
+    padding: 15px 20px;
+  }
+  #name{
+    height:30px;
+    width: 300px;
+    font-size: 15px
+  }
+  #email{
+    height:30px;
+    width: 250px;
+    font-size: 15px;
+  }
+  
+  #sub-con{
+    width: 760px;
+    height: 380px;
+    background: white;
+    padding: 10px 10px;
+    margin: 0 auto;
+  }
+  #sub-menu1{
+    border: px solid red;
+    background: orange;
+    color: white;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+  }
+  #sub-menu2{
+    margin: 30px 0px; 
+  }
+  
+  #form{
+    margin-left: 70px;
+  
+    padding-left: 20px;
+  }
+  
+  .sothich{
+    width: 40px;
+    height: 50px;
+    font-size: 17px;
+  }
+  #textbox1{
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 30px;
+  }
+   #textbox1{
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 30px;
+  }
+   #textbox2{
+    width: 250px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 60px;
+  }
+  
+  #checkbox{
+    margin-left: 50px;
+  }
+  #checkbox2{
+    margin-left: 115px;
+  }
+  #checkbox3{
+    margin-left: 45px;
+  }
+  #checkbox4{
+    margin-left: 35px;
+  }
+  #checkbox5{
+    margin-left: 115px;
+  }
+  #submit{
+    margin-left: 200px;
+    height: 30px;
+    font-size: 17px;
+  }
+  
+  #reset{
+    margin-left: 20px;
+    height: 30px;
+    font-size: 17px;
+  }
